@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the latest collection of premium sneakers at SHOKS.">
+    <title>SHOKS | Premium Sneaker Store</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Boxicons for elegant icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+
+    <!-- Navbar -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">SHOKS<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <a href="#" class="icon-btn"><i class='bx bx-search'></i></a>
+                <a href="#" class="icon-btn" id="cart-btn"><i class='bx bx-cart'></i><span class="badge" id="cart-badge">0</span></a>
+                <div class="mobile-toggle"><i class='bx bx-menu'></i></div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-text">SHOKS</div>
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h2 class="subtitle">Just Do It.</h2>
+                <h1 class="title">ELEVATE YOUR<br><span class="neon-text">GAME</span></h1>
+                <p>Discover the latest drop from Nike. Revolutionary comfort meets iconic street style. Designed for athletes, built for everyone.</p>
+                <div class="hero-btns">
+                    <a href="#products" class="btn btn-primary">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
+                    <a href="#gallery" class="btn btn-secondary">View Gallery</a>
+                </div>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="assets/img/product_1.png" alt="Nike Floating Shoe" class="floating-shoe">
+            </div>
+        </div>
+    </section>
+
+    <!-- Featured Products Section -->
+    <section class="products section" id="products">
+        <div class="container">
+            <div class="section-title">
+                <h2>LATEST <span class="accent">DROPS</span></h2>
+                <p>Our top kicks for the season.</p>
+            </div>
+            
+            <div class="product-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <img src="assets/img/product_1.png" alt="Product 1">
+                        <div class="card-overlay">
+                            <button class="btn btn-icon"><i class='bx bx-cart-add'></i></button>
+                            <button class="btn btn-icon"><i class='bx bx-heart'></i></button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="category">Men's Shoes</span>
+                        <h3>Nike Air Force 1 '07</h3>
+                        <div class="price-row">
+                            <span class="price">$115.00</span>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <span>4.8</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <div class="badge-hot">HOT</div>
+                        <img src="assets/img/product_2.png" alt="Product 2">
+                        <div class="card-overlay">
+                            <button class="btn btn-icon"><i class='bx bx-cart-add'></i></button>
+                            <button class="btn btn-icon"><i class='bx bx-heart'></i></button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="category">Running</span>
+                        <h3>Nike Air Zoom Pegasus 39</h3>
+                        <div class="price-row">
+                            <span class="price">$130.00</span>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <img src="assets/img/product_3.png" alt="Product 3">
+                        <div class="card-overlay">
+                            <button class="btn btn-icon"><i class='bx bx-cart-add'></i></button>
+                            <button class="btn btn-icon"><i class='bx bx-heart'></i></button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="category">Basketball</span>
+                        <h3>Nike Zoom Freak 4</h3>
+                        <div class="price-row">
+                            <span class="price">$135.00</span>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <span>4.7</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="product-card">
+                    <div class="card-image">
+                        <img src="assets/img/product_4.png" alt="Product 4">
+                        <div class="card-overlay">
+                            <button class="btn btn-icon"><i class='bx bx-cart-add'></i></button>
+                            <button class="btn btn-icon"><i class='bx bx-heart'></i></button>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <span class="category">Streetwear</span>
+                        <h3>Nike Dunk Low Retro</h3>
+                        <div class="price-row">
+                            <span class="price">$110.00</span>
+                            <div class="rating">
+                                <i class='bx bxs-star'></i>
+                                <span>4.9</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="center-btn">
+                <a href="#" class="btn btn-outline">View All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery / Slider Section -->
+    <section class="gallery section" id="gallery">
+        <div class="container">
+            <div class="section-title">
+                <h2>STYLE <span class="accent">GALLERY</span></h2>
+                <p>Follow us on Instagram @shoks</p>
+            </div>
+            
+            <div class="gallery-wrapper">
+                <div class="gallery-slider">
+                    <div class="slide"><img src="assets/img/product_1.png" alt="Gallery 1"></div>
+                    <div class="slide"><img src="assets/img/product_3.png" alt="Gallery 2"></div>
+                    <div class="slide"><img src="assets/img/hero_banner.png" alt="Gallery 3"></div>
+                    <div class="slide"><img src="assets/img/product_2.png" alt="Gallery 4"></div>
+                </div>
+                <button class="slider-btn prev"><i class='bx bx-chevron-left'></i></button>
+                <button class="slider-btn next"><i class='bx bx-chevron-right'></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about section" id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>OUR <span class="accent">STORY</span></h2>
+                <p>More than just a sneaker store.</p>
+            </div>
+            <div class="about-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
+                <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 20px;">SHOKS isn't just about selling shoes; it's about connecting sneakerheads with the culture they love. Born from a passion for street style and authentic kicks, we source only the most premium, hyped, and classic models.</p>
+                <p style="font-size: 1.1rem; color: var(--text-light);">Whether you're stepping onto the court or hitting the concrete, we make sure you perform at your absolute peak while looking effortlessly sharp.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer" id="contact">
+        <div class="container footer-content">
+            <div class="footer-col">
+                <a href="#" class="logo">SHOKS<span>.</span></a>
+                <p>The ultimate destination for premium sneakers and streetwear culture.</p>
+                <div class="social-icons">
+                    <a href="#"><i class='bx bxl-facebook'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>Customer Service</h4>
+                <ul>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Shipping & Returns</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Track Order</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 SHOKS. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <div id="toast-container"></div>
+    <script src="script.js"></script>
+</body>
+</html>
