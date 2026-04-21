@@ -1,32 +1,29 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en" dir="ltr" style="scroll-padding-top: 90px; scroll-behavior: smooth;">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Discover the latest collection of premium sneakers at SHOKS.">
-    <title>SHOKS | Premium Sneaker Store</title>
+    <meta name="description" content="Discover the ultimate classic, the Nike Air Force 1 '07.">
+    <title>SHOKS | Air Force 1</title>
     <link rel="stylesheet" href="style.css">
     <!-- Boxicons for elegant icons -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Teko:wght@400;600;700&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-
-
 
     <!-- Navbar -->
     <header class="navbar" id="navbar">
         <div class="container nav-container">
-            <a href="#" class="logo">SHOKS<span>.</span></a>
+            <a href="#" class="logo">SHOKS.</a>
             <ul class="nav-links">
-                <li><a href="#home" class="active">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#gallery">Gallery</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a href="#home" class="active">HOME</a></li>
+                <li><a href="#colorways">COLORWAYS</a></li>
+                <li><a href="#gallery">GALLERY</a></li>
+                <li><a href="#about">STORY</a></li>
             </ul>
             <div class="nav-actions">
                 <a href="#" class="icon-btn"><i class='bx bx-search'></i></a>
@@ -38,123 +35,117 @@
 
     <!-- Hero Section -->
     <section class="hero" id="home">
-        <div class="hero-bg-text">SHOKS</div>
+        <div class="hero-bg-text">AIR FORCE</div>
         <div class="container hero-content">
-            <div class="hero-text">
-                <h2 class="subtitle">Just Do It.</h2>
-                <h1 class="title">ELEVATE YOUR<br><span class="neon-text">GAME</span></h1>
-                <p>Discover the latest drop from Nike. Revolutionary comfort meets iconic street style. Designed for athletes, built for everyone.</p>
-                <div class="hero-btns">
-                    <a href="#products" class="btn btn-primary">Shop Now <i class='bx bx-right-arrow-alt'></i></a>
-                    <a href="#gallery" class="btn btn-secondary">View Gallery</a>
-                </div>
+            <div class="hero-text-block">
+                <p class="subtitle">EST. 1982</p>
+                <h1 class="title">THE ICON,<br>REFINED.</h1>
+                <p class="desc">The radiance lives on in the Nike Air Force 1 '07, the b-ball classic that puts a fresh spin on what you know best: crisper leather, bolder aesthetics and the perfect amount of flash to make you shine.</p>
+                <button class="btn btn-primary bx-cart-add">ADD TO CART <i class='bx bx-up-arrow-alt' style="transform: rotate(45deg);"></i></button>
             </div>
+            
             <div class="hero-image-wrapper">
-                <img src="assets/img/product_1.png" alt="Nike Floating Shoe" class="floating-shoe">
+                <img src="assets/img/product_1.png" alt="Nike Air Force 1" class="floating-shoe">
+            </div>
+
+            <div class="hero-features">
+                <div class="feat-card">
+                    <h4>ALL-DAY</h4>
+                    <p>COMFORT</p>
+                </div>
+                <div class="feat-card">
+                    <h4>PREMIUM</h4>
+                    <p>LEATHER</p>
+                </div>
             </div>
         </div>
     </section>
 
-    <!-- Featured Products Section -->
-    <section class="products section" id="products">
+    <!-- Colorways Section -->
+    <section class="colorways section" id="colorways">
         <div class="container">
             <div class="section-title">
-                <h2>LATEST <span class="accent">DROPS</span></h2>
-                <p>Our top kicks for the season.</p>
+                <h2>CHOOSE YOUR STYLE</h2>
+                <p>New drops and classic rotations.</p>
             </div>
             
             <div class="product-grid">
-                <!-- Product 1 -->
+                <!-- Variation 1: Panda -->
                 <div class="product-card">
                     <div class="card-image">
-                        <img src="assets/img/product_1.png" alt="Product 1">
+                        <img src="assets/img/af1_black.png" alt="Black and White AF1">
                         <div class="card-overlay">
-                            <button class="btn btn-icon"><i class='bx bx-cart-add'></i></button>
-                            <button class="btn btn-icon"><i class='bx bx-heart'></i></button>
+                            <button class="btn btn-cart bx-cart-add">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="card-content">
-                        <span class="category">Men's Shoes</span>
-                        <h3>Nike Air Force 1 '07</h3>
+                        <h3>Nike Air Force 1 '07 'Panda'</h3>
                         <div class="price-row">
                             <span class="price">$115.00</span>
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                <span>4.8</span>
-                            </div>
+                            <button class="icon-only-btn"><i class='bx bx-heart'></i></button>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 2 -->
+                <!-- Variation 2: Royal Blue -->
                 <div class="product-card">
                     <div class="card-image">
-                        <div class="badge-hot">HOT</div>
-                        <img src="assets/img/product_2.png" alt="Product 2">
+                        <div class="badge-hot">NEW</div>
+                        <img src="assets/img/af1_blue.png" alt="Royal Blue AF1">
                         <div class="card-overlay">
-                            <button class="btn btn-icon"><i class='bx bx-cart-add'></i></button>
-                            <button class="btn btn-icon"><i class='bx bx-heart'></i></button>
+                            <button class="btn btn-cart bx-cart-add">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="card-content">
-                        <span class="category">Running</span>
-                        <h3>Nike Air Zoom Pegasus 39</h3>
+                        <h3>Nike Air Force 1 '07 'Royal'</h3>
                         <div class="price-row">
-                            <span class="price">$130.00</span>
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                <span>4.9</span>
-                            </div>
+                            <span class="price">$115.00</span>
+                            <button class="icon-only-btn"><i class='bx bx-heart'></i></button>
                         </div>
                     </div>
                 </div>
 
-                <!-- Product 3 -->
+                <!-- Variation 3: Pine Green -->
                 <div class="product-card">
                     <div class="card-image">
-                        <img src="assets/img/product_3.png" alt="Product 3">
+                        <img src="assets/img/af1_green.png" alt="Pine Green AF1">
                         <div class="card-overlay">
-                            <button class="btn btn-icon"><i class='bx bx-cart-add'></i></button>
-                            <button class="btn btn-icon"><i class='bx bx-heart'></i></button>
+                            <button class="btn btn-cart bx-cart-add">ADD TO CART</button>
                         </div>
                     </div>
                     <div class="card-content">
-                        <span class="category">Basketball</span>
-                        <h3>Nike Zoom Freak 4</h3>
+                        <h3>Nike Air Force 1 '07 'Pine Green'</h3>
                         <div class="price-row">
-                            <span class="price">$135.00</span>
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                <span>4.7</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Product 4 -->
-                <div class="product-card">
-                    <div class="card-image">
-                        <img src="assets/img/product_4.png" alt="Product 4">
-                        <div class="card-overlay">
-                            <button class="btn btn-icon"><i class='bx bx-cart-add'></i></button>
-                            <button class="btn btn-icon"><i class='bx bx-heart'></i></button>
-                        </div>
-                    </div>
-                    <div class="card-content">
-                        <span class="category">Streetwear</span>
-                        <h3>Nike Dunk Low Retro</h3>
-                        <div class="price-row">
-                            <span class="price">$110.00</span>
-                            <div class="rating">
-                                <i class='bx bxs-star'></i>
-                                <span>4.9</span>
-                            </div>
+                            <span class="price">$115.00</span>
+                            <button class="icon-only-btn"><i class='bx bx-heart'></i></button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="center-btn">
-                <a href="#" class="btn btn-outline">View All Products</a>
+        </div>
+    </section>
+
+    <!-- Dark About / Story Section -->
+    <section class="about section dark-section" id="about">
+        <div class="container about-grid">
+            <div class="about-text">
+                <h2>LEGENDARY ROOTS</h2>
+                <p>Introduced in 1982, the Air Force 1 redefined basketball footwear from the hardwood to the blacktop. It was the first basketball sneaker to house Nike Air, but its innovative nature has since taken a backseat to its status as a street icon.</p>
+                <p class="highlight-text">"It's not just a shoe. It's a statement."</p>
+                <div class="stats-row">
+                    <div class="stat">
+                        <h3>1982</h3>
+                        <span>Release Year</span>
+                    </div>
+                    <div class="stat">
+                        <h3>2000+</h3>
+                        <span>Iterations</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-image">
+                <!-- Reusing a side angle to show durability -->
+                <img src="assets/img/product_1.png" alt="AF1 Detail" class="blend-dark">
             </div>
         </div>
     </section>
@@ -163,16 +154,16 @@
     <section class="gallery section" id="gallery">
         <div class="container">
             <div class="section-title">
-                <h2>STYLE <span class="accent">GALLERY</span></h2>
-                <p>Follow us on Instagram @shoks</p>
+                <h2>ON FEET LOOKS</h2>
             </div>
             
             <div class="gallery-wrapper">
                 <div class="gallery-slider">
-                    <div class="slide"><img src="assets/img/product_1.png" alt="Gallery 1"></div>
-                    <div class="slide"><img src="assets/img/product_3.png" alt="Gallery 2"></div>
-                    <div class="slide"><img src="assets/img/hero_banner.png" alt="Gallery 3"></div>
-                    <div class="slide"><img src="assets/img/product_2.png" alt="Gallery 4"></div>
+                    <!-- For layout purposes, repeating variations -->
+                    <div class="slide"><img src="assets/img/product_1.png" alt="Gallery 1" class="blend-light"></div>
+                    <div class="slide"><img src="assets/img/af1_black.png" alt="Gallery 2" class="blend-light"></div>
+                    <div class="slide"><img src="assets/img/af1_blue.png" alt="Gallery 3" class="blend-light"></div>
+                    <div class="slide"><img src="assets/img/af1_green.png" alt="Gallery 4" class="blend-light"></div>
                 </div>
                 <button class="slider-btn prev"><i class='bx bx-chevron-left'></i></button>
                 <button class="slider-btn next"><i class='bx bx-chevron-right'></i></button>
@@ -180,53 +171,26 @@
         </div>
     </section>
 
-    <!-- About Section -->
-    <section class="about section" id="about">
-        <div class="container">
-            <div class="section-title">
-                <h2>OUR <span class="accent">STORY</span></h2>
-                <p>More than just a sneaker store.</p>
-            </div>
-            <div class="about-content" style="text-align: center; max-width: 800px; margin: 0 auto;">
-                <p style="font-size: 1.1rem; color: var(--text-light); margin-bottom: 20px;">SHOKS isn't just about selling shoes; it's about connecting sneakerheads with the culture they love. Born from a passion for street style and authentic kicks, we source only the most premium, hyped, and classic models.</p>
-                <p style="font-size: 1.1rem; color: var(--text-light);">Whether you're stepping onto the court or hitting the concrete, we make sure you perform at your absolute peak while looking effortlessly sharp.</p>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer" id="contact">
-        <div class="container footer-content">
-            <div class="footer-col">
-                <a href="#" class="logo">SHOKS<span>.</span></a>
-                <p>The ultimate destination for premium sneakers and streetwear culture.</p>
+    <!-- Minimal Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="brand-col">
+                <h2>SHOKS.</h2>
                 <div class="social-icons">
-                    <a href="#"><i class='bx bxl-facebook'></i></a>
                     <a href="#"><i class='bx bxl-instagram'></i></a>
                     <a href="#"><i class='bx bxl-twitter'></i></a>
+                    <a href="#"><i class='bx bxl-tiktok'></i></a>
                 </div>
             </div>
-            <div class="footer-col">
-                <h4>Quick Links</h4>
-                <ul>
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#products">Products</a></li>
-                    <li><a href="#about">About Us</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                </ul>
+            <div class="links-col">
+                <a href="#home">HOME</a>
+                <a href="#colorways">COLORWAYS</a>
+                <a href="#about">STORY</a>
             </div>
-            <div class="footer-col">
-                <h4>Customer Service</h4>
-                <ul>
-                    <li><a href="#">FAQ</a></li>
-                    <li><a href="#">Shipping & Returns</a></li>
-                    <li><a href="#">Size Guide</a></li>
-                    <li><a href="#">Track Order</a></li>
-                </ul>
+            <div class="legal-col">
+                <p>&copy; 2026 SHOKS.</p>
+                <p>Designed for excellence.</p>
             </div>
-        </div>
-        <div class="footer-bottom">
-            <p>&copy; 2026 SHOKS. All Rights Reserved.</p>
         </div>
     </footer>
 
